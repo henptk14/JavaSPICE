@@ -1,0 +1,14 @@
+* rc.sp
+* This is the test case 2 for MP2 
+* Find the DC static operating point at each node and the current through the voltage source V1
+* Treat the capacitor as open in the DC simulation
+* Spice netlist
+V1	a	0	1.8
+R2	a	b	1k
+R3	b	0	1k
+R4	b	c	2k
+C5	c	0	100f
+
+*Stimulus 
+.op
+.end

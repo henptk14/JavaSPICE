@@ -1,0 +1,11 @@
+*resistornetwork.sp
+*Find the static node voltage and the current through voltage source
+*Simulation netlist
+V1   a    0     5
+R2   a    b     1k
+R3   b    0     2k
+R4   b    c		1k
+R5   c    0    	1k
+*Stimulus
+.op
+.end

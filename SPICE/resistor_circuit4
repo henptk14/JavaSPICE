@@ -1,0 +1,8 @@
+* This is a resistor circuit from Page 96 Figure 4.12
+* From Electric Circuit 10th Edition
+
+v1 a 0 100
+r2 a 0 25
+r3 a b 10
+r4 b 0 50
+i5 0 b 5

@@ -1,0 +1,10 @@
+* test case 2
+
+vs	a	0	1
+r2	a	b	1
+r3	b	0	1
+h4	b	c	vs       1 
+r5	c	0	1
+
+.op
+.end

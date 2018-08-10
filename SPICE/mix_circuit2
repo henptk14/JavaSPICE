@@ -1,0 +1,8 @@
+* This is a resistor circuit from Example 2.10
+* From Electric Circuit 10th Edition
+
+vs a 0 10
+r1 a 0 6
+h2 b 0 vs 3
+r3 b c 2
+r4 c 0 3

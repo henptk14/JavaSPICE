@@ -1,0 +1,16 @@
+* mp2 test case 3 includes linear dependent sources
+* Do a DC simulation by varying voltage source V1 from 0V to 5V with step of 0.1V
+* Plot the voltage change with the voltage source V1 at nodes a, b, and c
+
+* Spice netlist
+V1	a	0	5
+R2	a	b	1
+E3	b	0	a       b      0.5
+R4	b	c	1
+F5	c	0	V1      1
+
+* Stimulus
+.dc  V1   0   5   0.1
+.plot V(a)   V(b)   V(c) 
+
+.end

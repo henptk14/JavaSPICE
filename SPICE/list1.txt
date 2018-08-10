@@ -1,0 +1,8 @@
+* This is the first netlist file
+
+v1 1 0 24
+r1 1 2 3k
+r2 2 3 10k
+r3 3 0 5k
+
+* Stimulus

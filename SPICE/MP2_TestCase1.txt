@@ -1,0 +1,14 @@
+* resistor_network.sp
+* This is the test case 1 for MP2
+* Find the DC static operating point at each node and the current through the voltage source V1
+
+* Spice netlist
+V1	a	0	1.8
+R2	a	0	200
+R3	a	b	100
+R4	b	0	100
+
+
+*Stimulus 
+.op
+.end

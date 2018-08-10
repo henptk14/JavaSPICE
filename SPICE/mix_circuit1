@@ -1,0 +1,9 @@
+* This is a resistor circuit from Page 42 Figure 2.22
+* From Electric Circuit 10th Edition
+* f3 is CCCS
+* FYI The textbook might have dependent current source with wrong direction
+
+vs a 0 500
+r1 a b 5
+r2 b 0 20
+f3 b 0 vs 5

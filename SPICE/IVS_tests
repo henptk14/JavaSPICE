@@ -1,0 +1,7 @@
+* This is a self-made for IVS testing
+
+v1 a 0 10
+r2 a b 1
+r3 b 0 1
+r4 b c 1
+v5 c 0 10
